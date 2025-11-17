@@ -1,0 +1,210 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+ display: flex;
+ flex-direction: column;
+
+ 
+  /* background-image:linear-gradient(90deg, #97d9e1 0%, #d9afd9 100%);
+   */
+   background-color: #3a3b3c;
+   color: #fff;
+   justify-content: space-between;
+  
+}
+main{
+	flex:1;
+	place-items: center;
+	place-content: center;
+}
+
+
+
+h2{ color: #fff;
+	 font-family: 'Montserrat', sans-serif;
+	
+}
+.cont{
+	border-radius: 5px;
+	
+	padding: 10px;
+	margin: 0 auto;
+	width: 90%;
+	max-width: 420px;
+	
+}
+
+ .cont2{
+    border-radius: 5px;
+	background-color: #000;
+	color: #fff;
+	padding: 20px;
+	margin: 0 auto;
+	width: 90%;
+		max-width: 420px;
+	
+
+ }
+
+
+.container {
+  padding-top:10px ;
+ 
+  text-align: center;
+}
+
+.progress {
+  padding: 3px;
+  background:#fff;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255,);
+}
+
+.progress-bar {	
+  height: 18px;
+	background-color: #fff;  
+  border-radius: 3px; 
+  transition: 3s linear;  
+  transition-property: width, background-color;    
+}
+
+.progress-striped .progress-bar { 	
+  
+  width: 100%; 
+  background-image:linear-gradient(90deg, #4cbb17 0%, #90ee90 15%, #4cbb17 90%);
+  animation: progressAnimationStrike 15s;
+}
+
+@keyframes progressAnimationStrike {
+     from { width: 0 }
+     to   { width: 100% }
+}
+ 
+
+ .span:before{
+ 	content: "3772789";
+ 	animation: animate 15s;
+
+ }
+@keyframes animate{
+	0%{
+		content: "0";
+
+	}
+	2%{
+		content: "156";
+
+	}
+	5%{
+		content: "678";
+
+	}
+	7%{
+		content: "987";
+
+	}
+		10%{
+		content: "1767";
+
+		
+	}
+		20%{
+		content: "34506";
+		
+	}
+		30%{
+		content: "78996";
+		
+	}
+		40%{
+		content: "345677";
+		
+	}
+		50%{
+		content: "565677";
+		
+	}
+		60%{
+		content: "899988";
+		
+	}
+		70%{
+		content: "1289996";
+		
+	}
+		80%{
+		content: "2567786";
+		
+	}
+		90%{
+		content: "3278977";
+		
+	}
+		100%{
+		content: "3772789";
+		
+	}
+}
+h5{
+	color: #000;
+	text-align: center;
+}
+
+.popup{
+	
+	background-color: #fff;
+    width: 60%;
+	
+	margin: 0 auto;
+	display: none;
+	border-radius: 5px;
+
+
+}
+.popup button{
+    display: block;
+    margin:  0 0 20px auto;
+    background-color: transparent;
+    font-size: 20px;
+    color: #000;
+    border-color:  #000;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn{
+
+ 
+ padding: 10px;
+    
+  font-weight: bold;
+cursor: pointer;
+  background: #fff ;
+  border: none;
+  
+  
+  color: #000;
+  font-size: 15px;
+
+  transition: .4s ease;
+  border-radius: 4px;
+}
+
+
+.btn:hover {
+  background-color:#d9afd9;
+}
+.menu{
+ text-align: center;
+ margin: 0 auto;
+  
+  }

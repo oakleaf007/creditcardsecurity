@@ -126,6 +126,10 @@ form input{
       border-radius: 2px;
       border:none
 }
+form input:focus{
+  border-color: #00aaff;
+  box-shadow: 0 0 5px #00aaff;
+}
 form button{
     border: none;
     border-radius: 4px;

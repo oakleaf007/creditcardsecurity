@@ -161,8 +161,8 @@ h5{
 .popup{
 	
 	background-color: #fff;
-    width: 60%;
-	
+    width:90%;
+	max-width: 420px;
 	margin: 0 auto;
 	display: none;
 	border-radius: 5px;

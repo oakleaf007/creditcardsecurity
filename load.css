@@ -15,7 +15,7 @@ body {
  
   /* background-image:linear-gradient(90deg, #97d9e1 0%, #d9afd9 100%);
    */
-   background-color: #3a3b3c;
+   background-color: #2f5288;
    color: #fff;
    justify-content: space-between;
   
@@ -35,7 +35,7 @@ h2{ color: #fff;
 .cont{
 	border-radius: 5px;
 	
-	padding: 10px;
+	/* padding: 20px; */
 	margin: 0 auto;
 	width: 90%;
 	max-width: 420px;
@@ -47,6 +47,7 @@ h2{ color: #fff;
 	background-color: #000;
 	color: #fff;
 	padding: 20px;
+	
 	margin: 0 auto;
 	width: 90%;
 		max-width: 420px;
@@ -56,7 +57,7 @@ h2{ color: #fff;
 
 
 .container {
-  padding-top:10px ;
+  
  
   text-align: center;
 }
